@@ -1,55 +1,60 @@
+markdown
+
 # Hello-world Program In All Languages
 
 ##############################################################################################################################
- C++
- Hello world program in C++
+C++
+```cpp
+// Hello world program in C++
 
- //header file 
+// header file
+#include<iostream>
+using namespace std;
 
- #include<iostream>
+int main() // main function
+{
+    cout << "Hello world!"; // output statement
+    return 0; // exit statement
+}
 
-  using namespace std;
-
-  int main()//main function
-
-  {
-
-       cou<<"Hello world!";//output statement
-
-       return 0;//exit statement
-
-  }
 ##############################################################################################################################
-  C
-//hello world program in c
-  //header file 
+C
 
-  #include<stdio.h>
+c
 
-  int main()//main function
+// Hello world program in C
 
-  {         //output statement
+// header file
+#include<stdio.h>
 
-       printf("Hello world!");
+int main() // main function
+{
+    printf("Hello world!"); // output statement
+    return 0; // exit statement
+}
 
-     return 0;//exit statement 
-
-  }
 ##############################################################################################################################
- Python 
-#hello world program in Python
-  //Only write output statement 
+Python
 
-  pritn("Hello world!")
+python
+
+# Hello world program in Python
+
+print("Hello world!") # output statement
+
 ##############################################################################################################################
-hello world program in ArnoldC
+ArnoldC
 
-IT'S SHOWTIME
+vbnet
+
+ITS SHOWTIME
 TALK TO THE HAND "hello world!"
 YOU HAVE BEEN TERMINATED
 
 ##############################################################################################################################
 C#
+
+csharp
 
 // Hello World! program in C#
 namespace HelloWorld
@@ -64,51 +69,69 @@ namespace HelloWorld
 
 ##############################################################################################################################
 Java
-//Hello world in Java
 
-Class Helloworld
-{
-         Public static void main(String[] arg)
-         {
-              System.out.println('Hello world!');
-         }
+java
+
+// Hello world in Java
+class Helloworld {
+    public static void main(String[] arg) {
+        System.out.println("Hello world!");
+    }
 }
-##############################################################################################################################
-Swift 
-//Hello world in swift
-print("Hello, World!") 
 
 ##############################################################################################################################
+Swift
 
-Java Script 
-//hello world program in java script 
+swift
+
+// Hello world in Swift
+print("Hello, World!")
+
+##############################################################################################################################
+JavaScript
+
+javascript
+
+// Hello world program in JavaScript
 document.write('Hello, World!');
-alert("hello world!");
-console.log("hello world!");
+alert("Hello world!");
+console.log("Hello world!");
+
 ##############################################################################################################################
-Html
+HTML
+
+html
+
 <html>
     <head>
-        <title>
-            First Web Page
-        </title>
+        <title>First Web Page</title>
     </head>
- 
     <body>
         Hello World!
     </body>
 </html>
-##############################################################################################################################
-R 
 
-Print("hello world!")
+##############################################################################################################################
+R
+
+r
+
+# Hello world in R
+print("hello world!")
+
 ##############################################################################################################################
 PHP
+
+php
+
 <?php
    echo "hello world!";
 ?>
+
 ##############################################################################################################################
 Perl
+
+perl
 
 #!/usr/bin/perl
 
@@ -118,64 +141,81 @@ use warnings;
 
 # Print function
 print("Hello World\n");
+
 ##############################################################################################################################
-Assembly Language
+Assembly Language (NASM)
+
+asm
 
 global _start
 
 section .text
 
 _start:
-  mov rax, 1        ; write(
-  mov rdi, 1        ;   STDOUT_FILENO,
-  mov rsi, msg      ;   "Hello, world!\n",
-  mov rdx, msglen   ;   sizeof("Hello, world!\n")
-  syscall           ; );
+    mov rax, 1        ; write(
+    mov rdi, 1        ;   STDOUT_FILENO,
+    mov rsi, msg      ;   "Hello, world!\n",
+    mov rdx, msglen   ;   sizeof("Hello, world!\n")
+    syscall           ; );
 
-  mov rax, 60       ; exit(
-  mov rdi, 0        ;   EXIT_SUCCESS
-  syscall           ; );
+    mov rax, 60       ; exit(
+    mov rdi, 0        ;   EXIT_SUCCESS
+    syscall           ; );
 
 section .rodata
-  msg: db "Hello, world!", 10
-  msglen: equ $ - msg
- 
- ##############################################################################################################################
- Rust
- 
- // This is the main function.
+    msg: db "Hello, world!", 10
+    msglen: equ $ - msg
+
+##############################################################################################################################
+Rust
+
+rust
+
+// This is the main function.
 fn main() {
     // Statements here are executed when the compiled binary is called.
 
     // Print text to the console.
     println!("Hello World!");
 }
+
 ##############################################################################################################################
 Kotlin
 
+kotlin
 
 // Hello World Program
-
-fun main(args : Array<String>) {
+fun main(args: Array<String>) {
     println("Hello, World!")
 }
+
 ##############################################################################################################################
-GO
+Go
+
+go
 
 package main
 import "fmt"
+
 func main() {
     fmt.Println("hello world")
 }
+
 ##############################################################################################################################
 Ruby
 
+ruby
+
+# Hello world in Ruby
 puts "Hello World"
 
-
-
-
-
+##############################################################################################################################
 Thank You
-Regards
+
+Regards,
 Ashmeet Singh!
+
+javascript
+
+
+Feel free to save this as a `README.md` file.
